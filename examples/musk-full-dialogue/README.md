@@ -55,11 +55,17 @@ Starship 改钢同时涉及原材料成本、固化工艺、低温比强度、�
 
 开篇直接使用最终 Word 纪要第 1、2、4、25 页的真实渲染截图，以 3:4 竖版展示总结、主题正文、参数条件和技术问答。四张截图仅等比例缩放后拼入版面，保留原始文字、段落、底纹与页码；完整分辨率截图可在[展示目录](../../showcase/README.md)查看。
 
-![纪要关键页面缩略总览](../../showcase/01-成稿缩略总览.png)
+<p align="center">
+  <a href="../../showcase/01-成稿缩略总览.png"><img src="../../showcase/01-成稿缩略总览.png" alt="纪要关键页面缩略总览" width="420"></a>
+</p>
 
-![跨章节整理](../../showcase/03-跨章节归并.png)
+<p align="center">
+  <a href="../../showcase/03-跨章节归并.png"><img src="../../showcase/03-跨章节归并.png" alt="跨章节整理" width="420"></a>
+</p>
 
-![技术细节与问答保真](../../showcase/05-技术追问.png)
+<p align="center">
+  <a href="../../showcase/05-技术追问.png"><img src="../../showcase/05-技术追问.png" alt="技术细节与问答保真" width="420"></a>
+</p>
 
 ## 来源与日期
 

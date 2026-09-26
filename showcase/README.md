@@ -21,17 +21,29 @@
 | 05 | [技术追问](05-技术追问.png) | Starship 材料取舍，以及保守主义、隔热层复用的追问 |
 | 06 | [不确定与回查](06-不确定与回查.png) | 价格歧义、未披露方案、未完成目标，以及来源定位 |
 
-![成稿缩略总览](01-成稿缩略总览.png)
+<p align="center">
+  <a href="01-成稿缩略总览.png"><img src="01-成稿缩略总览.png" alt="成稿缩略总览" width="420"></a>
+</p>
 
-![Skill定位](02-Skill定位.png)
+<p align="center">
+  <a href="02-Skill定位.png"><img src="02-Skill定位.png" alt="Skill定位" width="420"></a>
+</p>
 
-![跨章节归并](03-跨章节归并.png)
+<p align="center">
+  <a href="03-跨章节归并.png"><img src="03-跨章节归并.png" alt="跨章节归并" width="420"></a>
+</p>
 
-![数字与条件](04-数字与条件.png)
+<p align="center">
+  <a href="04-数字与条件.png"><img src="04-数字与条件.png" alt="数字与条件" width="420"></a>
+</p>
 
-![技术追问](05-技术追问.png)
+<p align="center">
+  <a href="05-技术追问.png"><img src="05-技术追问.png" alt="技术追问" width="420"></a>
+</p>
 
-![不确定与回查](06-不确定与回查.png)
+<p align="center">
+  <a href="06-不确定与回查.png"><img src="06-不确定与回查.png" alt="不确定与回查" width="420"></a>
+</p>
 
 ## 名称与版本
 

@@ -6,7 +6,9 @@
 
 把完整长对话整理成可阅读、可回查的专业纪要，保留技术细节、数字条件和实质性问答。
 
-![深度纪要skill效果总览图](showcase/01-成稿缩略总览.png)
+<p align="center">
+  <a href="showcase/01-成稿缩略总览.png"><img src="showcase/01-成稿缩略总览.png" alt="深度纪要skill效果总览图" width="420"></a>
+</p>
 
 [样例解析](#样例解析) · [阅读完整纪要](examples/musk-full-dialogue/minutes.md) · [下载 Word](examples/musk-full-dialogue/SpaceX_Tesla_xAI_马斯克访谈完整纪要.docx) · [快速开始](#快速开始) · [Skill 原文](skills/meeting-minutes-from-transcript/SKILL.md)
 
@@ -16,7 +18,9 @@
 
 先看总结掌握关键判断，再按主题理解依据，最后回到问答核对问题如何展开。
 
-![深度纪要skill的定位与输出结构](showcase/02-Skill定位.png)
+<p align="center">
+  <a href="showcase/02-Skill定位.png"><img src="showcase/02-Skill定位.png" alt="深度纪要skill的定位与输出结构" width="420"></a>
+</p>
 
 **完整阅读 · 上下文校正 · 按议题重组 · 保留数字与条件 · 回查实质性问答**
 
@@ -38,25 +42,33 @@
 
 TeraFab 在原稿第6–8页讨论设备、代工与存储限制，第30–31页补充逻辑、存储、封装范围以及小厂状态。纪要将其集中到一个议题中，保留 **2030年目标、小厂尚未完成、成功无保证、继续外部采购** 的区别。
 
-![样例解析：TeraFab跨章节归并](showcase/03-跨章节归并.png)
+<p align="center">
+  <a href="showcase/03-跨章节归并.png"><img src="showcase/03-跨章节归并.png" alt="样例解析：TeraFab跨章节归并" width="420"></a>
+</p>
 
 ### 02｜数字连同对象、单位和条件一起保留
 
 供电讨论中同时出现 **110,000张GB300约300 MW** 和 **330,000张约1 GW** 两次近似表述。纪要保留网络、CPU、存储、最热时段冷却及检修余量，注明发电侧口径；两次估算分别呈现，附加比例也不直接相加。
 
-![样例解析：供电估算与适用条件](showcase/04-数字与条件.png)
+<p align="center">
+  <a href="showcase/04-数字与条件.png"><img src="showcase/04-数字与条件.png" alt="样例解析：供电估算与适用条件" width="420"></a>
+</p>
 
 ### 03｜保留工程取舍，也保留主持人的追问
 
 Starship 改用不锈钢的讨论涉及专用碳纤维成本、约50层材料的固化、褶皱与缺陷、低温比强度及隔热层质量。正文集中呈现这些依据，问答继续保留“是否因为团队保守”“耗材如何实现复用”等追问，并标注原稿页码与发言编号。
 
-![样例解析：Starship技术细节与追问](showcase/05-技术追问.png)
+<p align="center">
+  <a href="showcase/05-技术追问.png"><img src="showcase/05-技术追问.png" alt="样例解析：Starship技术细节与追问" width="420"></a>
+</p>
 
 ### 04｜把歧义、未回答和未完成状态留下来
 
 光伏价格写法存在歧义，就保留原写法和待确认解释；xAI 未披露具体差异化方案，就记录未披露；TeraFab 提出产能目标，就同时写明尚未完成的状态。每组问答都能通过 **PDF页码与T编号** 回查英文对话稿。
 
-![样例解析：不确定性与来源回查](showcase/06-不确定与回查.png)
+<p align="center">
+  <a href="showcase/06-不确定与回查.png"><img src="showcase/06-不确定与回查.png" alt="样例解析：不确定性与来源回查" width="420"></a>
+</p>
 
 本例展示的是实际可核对的整理行为。它没有进行准确率、节省时间或有无 Skill 的对照评测，也没有外部核实受访者的技术与商业判断。输入已是网页逐字稿，因此本例不用于评估音频识别质量。
 
