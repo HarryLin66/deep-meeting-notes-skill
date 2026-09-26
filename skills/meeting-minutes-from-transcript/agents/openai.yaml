@@ -1,0 +1,4 @@
+interface:
+  display_name: "会议转写纪要"
+  short_description: "将转写整理为投资报告文风、技术问答保真的专业纪要"
+  default_prompt: "使用 $meeting-minutes-from-transcript 将这份 TXT 整理成投资报告文风的中文会议纪要，以加粗导语概括关键正文段落；加粗导语与普通正文保持相同的首行缩进，并在文末完整保留工艺、技术路径、双方论据和验证逻辑。"
