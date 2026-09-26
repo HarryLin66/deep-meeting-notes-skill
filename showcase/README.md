@@ -2,15 +2,19 @@
 
 **一款专门针对一级、二级、咨询、科技爱好者、AI达人的会议纪要 Skill。**
 
-这是 `meeting-minutes-from-transcript` 的六页图片介绍，以用户提供的马斯克完整访谈及本次生成的纪要为例。对外展示名称为“深度纪要skill”，版本为 v1.0；可安装的 Skill 标识为 `meeting-minutes-from-transcript`。
+这是 `meeting-minutes-from-transcript` 的六张 **3:4 竖版 PNG**，用于小红书等移动端图文分享，也作为 GitHub 首页展示。内容已按竖屏重新编排，以马斯克完整访谈及本次生成的纪要为例。对外展示名称为“深度纪要skill”，版本为 v1.0；可安装的 Skill 标识为 `meeting-minutes-from-transcript`。
 
 [返回项目首页](../README.md) · [进入样例解析](../examples/musk-full-dialogue/README.md) · [阅读完整纪要](../examples/musk-full-dialogue/minutes.md)
+
+**[打包下载六张竖版 PNG](https://github.com/HarryLin66/deep-meeting-notes-skill/raw/refs/heads/main/dist/deep-meeting-notes-portrait-v1.0.zip)** · [六图总览](六页总览.png)
+
+单张尺寸为 **1086 × 1448**（3:4），按 `01` 至 `06` 的顺序上传即可组成一组分享图。
 
 ## 六页展示
 
 | 顺序 | 页面 | 展示重点 |
 | --- | --- | --- |
-| 01 | [成稿缩略总览](01-成稿缩略总览.png) | 纪要第 1、2、4、25 页的实际渲染截图 |
+| 01 | [成稿缩略总览](01-成稿缩略总览.png) | 纪要第 1、2、4、25 页的关键内容缩略预览 |
 | 02 | [Skill 定位](02-Skill定位.png) | 完整输入，以及总结、主题正文、问答三个阅读层次 |
 | 03 | [跨章节归并](03-跨章节归并.png) | 合并访谈首尾的 TeraFab 讨论，同时保留目标与状态 |
 | 04 | [数字与条件](04-数字与条件.png) | 两次 GB300 供电估算及设备、冷却、检修边界 |
@@ -45,6 +49,6 @@
 
 ## 交付说明
 
-六页均为 PNG。第 01 页以真实文档页面制作缩略总览，并统一抬头与字体风格，第 02–06 页使用内置 ImageGen 生成。第 03、05 页沿用此前已核对的案例展示图。文案中的技术数字和目标均按访谈发言记录。
+六页均使用内置 ImageGen 重新编排为 3:4 竖版 PNG，统一深蓝标题、蓝白配色、版本和页序。第 01 页展示纪要选页的关键内容；完整文字与原始分页以 Word 和 Markdown 纪要为准。文案中的技术数字和目标均按访谈发言记录。
 
 文件按 `01` 至 `06` 排序即可阅读或插入演示文稿。

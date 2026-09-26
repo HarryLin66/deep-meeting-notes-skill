@@ -1,5 +1,7 @@
 # 深度纪要skill · v1.0
 
+[MIT 开源许可](LICENSE) · [复制提示词安装](#快速开始) · [六张竖版分享图](showcase/README.md)
+
 **一款专门针对一级、二级、咨询、科技爱好者、AI达人的会议纪要 Skill。**
 
 把完整长对话整理成可阅读、可回查的专业纪要，保留技术细节、数字条件和实质性问答。
@@ -7,6 +9,8 @@
 ![深度纪要skill效果总览图](showcase/01-成稿缩略总览.png)
 
 [样例解析](#样例解析) · [阅读完整纪要](examples/musk-full-dialogue/minutes.md) · [下载 Word](examples/musk-full-dialogue/SpaceX_Tesla_xAI_马斯克访谈完整纪要.docx) · [快速开始](#快速开始) · [Skill 原文](skills/meeting-minutes-from-transcript/SKILL.md)
+
+**[下载六张竖版分享图](https://github.com/HarryLin66/deep-meeting-notes-skill/raw/refs/heads/main/dist/deep-meeting-notes-portrait-v1.0.zip)**：3:4 PNG，可按顺序保存并用于小红书等图文分享。
 
 ## 一份纪要，三个阅读层次
 
@@ -62,27 +66,22 @@ Starship 改用不锈钢的讨论涉及专用碳纤维成本、约50层材料的
 
 ## 快速开始
 
-### 1. 安装 Skill
+### 1. 复制这段话，发给 Codex 或 WorkBuddy
 
-下载本仓库并解压，进入仓库根目录。需要安装的是 `skills/meeting-minutes-from-transcript/` 目录。
+**不用自己敲命令。** 将下面整段内容粘贴到应用的对话框：
 
-**macOS / Linux**
-
-```bash
-mkdir -p ~/.agents/skills/meeting-minutes-from-transcript
-cp -R ./skills/meeting-minutes-from-transcript/. \
-  ~/.agents/skills/meeting-minutes-from-transcript/
+```text
+请帮我安装“深度纪要skill”：
+https://github.com/HarryLin66/deep-meeting-notes-skill/tree/main/skills/meeting-minutes-from-transcript
+请按当前应用支持的方式安装这个 Skill 目录，安装后确认能否识别，并告诉我如何调用。
 ```
 
-**Windows PowerShell**
+- **Codex：** 可以直接发送上面的提示词；也可在开头加上 `$skill-installer`，让安装器从 GitHub 安装。
+- **WorkBuddy：** 先发送同一段提示词。若当前版本需要界面导入，下载[精简技能包 ZIP](https://github.com/HarryLin66/deep-meeting-notes-skill/raw/refs/heads/main/dist/deep-meeting-notes-skill-v1.0.zip)，在「技能 → 添加技能 → 上传技能」选择该文件即可。
 
-```powershell
-$skillTarget = Join-Path $env:USERPROFILE '.agents\skills\meeting-minutes-from-transcript'
-New-Item -ItemType Directory -Force $skillTarget | Out-Null
-Copy-Item -Recurse -Force .\skills\meeting-minutes-from-transcript\* $skillTarget
-```
+技能包仅含 Skill 指令、配置和 MIT 许可，不包含访谈原稿、纪要或展示图片。安装后若未识别，重新打开应用再检查已安装技能。
 
-以上命令适用于首次安装；已有同名 Skill 时，先备份自己的修改，再更新同一安装位置，避免重复安装。部分已有环境使用 `~/.codex/skills/`，可沿用当前环境已识别的目录。当前官方文档列出的用户目录为 `~/.agents/skills/`，也支持项目内的 `.agents/skills/`。安装位置与调用方式参见 [OpenAI Skills 文档](https://developers.openai.com/codex/skills/)。
+安装方式依据：[Codex 官方技能安装说明](https://learn.chatgpt.com/docs/build-skills#install-curated-skills-for-local-use) · [WorkBuddy 官方技能说明](https://www.codebuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market)。应用的网络、权限及版本可能影响自动安装；安装提示词会让应用先确认自己的安装方式。
 
 ### 2. 提供转写稿并运行
 
@@ -220,7 +219,7 @@ Word 版的基本信息采用简洁的标签—内容排版，会议总结单独
 
 - **输入：** TXT 自动转写稿、粗糙逐字稿或粘贴的会议文本。多个文件请尽量说明关系。
 - **辅助信息：** 已知的企业名称、会议日期、参会角色、术语表或正式材料，有助于提高核对质量。
-- **运行环境：** 能加载本地 Skills 并读取输入文件的 Codex 环境。
+- **运行环境：** 能加载 Skills 并读取输入文件的 Codex、WorkBuddy 等环境。
 - **Word 交付：** 需要文档生成与渲染能力；Skill 本身只包含指令和界面元数据，不附带 DOCX 引擎。
 
 直接输入音频时，应先使用独立转写工具得到文本。精确逐字引用、法律证据记录和正式签署决议需要相应的人工核验流程。
@@ -228,13 +227,17 @@ Word 版的基本信息采用简洁的标签—内容排版，会议总结单独
 ## 目录结构
 
 ```text
-meeting-minutes-from-transcript/
+deep-meeting-notes-skill/
 ├── README.md
+├── LICENSE                   # MIT
+├── THIRD_PARTY_NOTICES.md     # 访谈来源与第三方权利说明
 ├── .gitignore
-├── showcase/                 # 六页 PNG、总览与展示说明
+├── dist/                     # 精简技能安装包
+├── showcase/                 # 六张 3:4 竖版 PNG、总览与展示说明
 ├── skills/
 │   └── meeting-minutes-from-transcript/
 │       ├── SKILL.md
+│       ├── LICENSE
 │       └── agents/
 │           └── openai.yaml
 └── examples/
@@ -283,4 +286,4 @@ meeting-minutes-from-transcript/
 
 ## 许可
 
-本仓库尚未附带开源许可证；再分发与改编权限以作者后续提供的许可证或授权为准。
+本项目原创 Skill 指令、配置及说明采用 **[MIT License](LICENSE)**，允许使用、修改与分发，并须保留许可证和版权声明。马斯克访谈原文及示例中的第三方引用不在 MIT 授权范围内，详见[第三方材料与来源](THIRD_PARTY_NOTICES.md)。
